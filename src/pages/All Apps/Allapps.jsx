@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { useLoaderData } from "react-router";
 import Apps from "../Apps/Apps";
+import Nofound from "../No Found/Nofound";
 
 const Allapps = () => {
   const allData = useLoaderData();
-  console.log(allData);
+
+  const [search, setSearch] = useState("");
+
+  const filterdApps = allData.filter((apps) =>
+    apps.title.toLowerCase().includes(search.toLowerCase()),
+  );
+
   return (
     <div>
       <div>
@@ -17,15 +24,22 @@ const Allapps = () => {
         <div className="flex justify-between items-center m-10">
           <h2>({allData.length}) Apps Found</h2>
           <div>
-            <input type="text" placeholder="Search apps" className="input" />
+            <input
+              onChange={(e) => setSearch(e.target.value)}
+              value={search}
+              type="text"
+              placeholder="Search apps"
+              className="input"
+            />
           </div>
         </div>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-10 gap-5 ">
-        {allData.map((apps) => (
-          <Apps apps={apps}></Apps>
-        ))}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-10 gap-5 ">
+          {filterdApps.length > 0 ? (
+            filterdApps.map((apps) => <Apps key={apps.id} apps={apps}></Apps>)
+          ) : (
+            <Nofound></Nofound>
+          )}
+        </div>
       </div>
     </div>
   );
