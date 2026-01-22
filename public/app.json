@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9",
+    "title": "Task Manager Pro",
+    "companyName": "SoftLab Ltd",
+    "description": "A productivity app designed to manage daily tasks efficiently.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 520 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1558655146-364adaf1fccf",
+    "title": "PhotoPro Editor",
+    "companyName": "PixelWave",
+    "description": "Advanced photo editing app with AI filters.",
+    "size": 70,
+    "reviews": 3400,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 780 },
+      { "name": "5 star", "count": 2050 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1574992082410-1c4f8f3e0ae9",
+    "title": "MusicBeat Player",
+    "companyName": "TuneTech",
+    "description": "High-quality music player with offline mode.",
+    "size": 30,
+    "reviews": 900,
+    "ratingAvg": 4.2,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1549572189-01d9c5f12d28",
+    "title": "HealthyLife Tracker",
+    "companyName": "Wellness Corp",
+    "description": "Track calories, steps, and workouts in one place.",
+    "size": 55,
+    "reviews": 1700,
+    "ratingAvg": 4.6,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 800 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1556742031-c6961e8560b0",
+    "title": "Food Delivery Hub",
+    "companyName": "QuickBite",
+    "description": "Order food from top restaurants instantly.",
+    "size": 80,
+    "reviews": 5200,
+    "ratingAvg": 4.8,
+    "downloads": 2400000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 230 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 2870 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a",
+    "title": "WeatherNow",
+    "companyName": "SkyNet",
+    "description": "Accurate real-time weather updates with radar maps.",
+    "size": 25,
+    "reviews": 2300,
+    "ratingAvg": 4.4,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1050 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1600267165658-3e8e88f0ea63",
+    "title": "LearnLang",
+    "companyName": "EduPlus",
+    "description": "Learn new languages with AI-based lessons.",
+    "size": 60,
+    "reviews": 2900,
+    "ratingAvg": 4.5,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 680 },
+      { "name": "5 star", "count": 1730 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2",
+    "title": "Budget Planner",
+    "companyName": "Fintech Labs",
+    "description": "Manage personal finances and track expenses.",
+    "size": 40,
+    "reviews": 1100,
+    "ratingAvg": 4.3,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 390 }
+    ]
+  },
+
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1584697964403-80d1ebf94dd4",
+    "title": "NotePad X",
+    "companyName": "PaperSoft",
+    "description": "Simple and fast notes app with cloud sync.",
+    "size": 18,
+    "reviews": 800,
+    "ratingAvg": 4.1,
+    "downloads": 260000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 190 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 280 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1593871959072-962d1f4a3afb",
+    "title": "Fitness Coach AI",
+    "companyName": "FitZone",
+    "description": "AI-guided workouts for home and gym.",
+    "size": 65,
+    "reviews": 1800,
+    "ratingAvg": 4.6,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1598327105666-5a58a1fcca01",
+    "title": "Crypto Wallet Pro",
+    "companyName": "BlockChain Inc",
+    "description": "Secure crypto wallet with multi-currency support.",
+    "size": 50,
+    "reviews": 1500,
+    "ratingAvg": 4.4,
+    "downloads": 680000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 270 },
+      { "name": "4 star", "count": 460 },
+      { "name": "5 star", "count": 610 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1555529669-1335c1ffff72",
+    "title": "Study Buddy",
+    "companyName": "EduSoft",
+    "description": "Student study planner with reminders.",
+    "size": 36,
+    "reviews": 900,
+    "ratingAvg": 4.2,
+    "downloads": 340000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 280 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://images.unsplash.com/photo-1584438784894-089d6a62b8f1",
+    "title": "VPN Guard",
+    "companyName": "SecureNet",
+    "description": "Fast VPN with no-log policy.",
+    "size": 48,
+    "reviews": 4100,
+    "ratingAvg": 4.7,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2520 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://images.unsplash.com/photo-1524678606370-e38d1f4f65b4",
+    "title": "RideShare Go",
+    "companyName": "TransitTech",
+    "description": "Book rides instantly with live tracking.",
+    "size": 72,
+    "reviews": 3200,
+    "ratingAvg": 4.5,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1520 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+    "title": "Recipe Master",
+    "companyName": "KitchenLab",
+    "description": "Discover recipes and create meal plans.",
+    "size": 55,
+    "reviews": 1400,
+    "ratingAvg": 4.3,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 610 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e",
+    "title": "Car Racing X",
+    "companyName": "GameVerse",
+    "description": "High-speed racing game with realistic graphics.",
+    "size": 150,
+    "reviews": 8900,
+    "ratingAvg": 4.8,
+    "downloads": 5400000,
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 5400 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f",
+    "title": "MovieStream",
+    "companyName": "CinemaPlus",
+    "description": "Watch movies and shows instantly.",
+    "size": 95,
+    "reviews": 7600,
+    "ratingAvg": 4.6,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 270 },
+      { "name": "3 star", "count": 480 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 4950 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://images.unsplash.com/photo-1555529771-35a38ca0f8c5",
+    "title": "Dictionary Pro",
+    "companyName": "Lexico",
+    "description": "Offline dictionary with pronunciation.",
+    "size": 28,
+    "reviews": 1000,
+    "ratingAvg": 4.5,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 340 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://images.unsplash.com/photo-1580894908360-9a9e1c0f16a3",
+    "title": "QR Scanner Pro",
+    "companyName": "ScanTech",
+    "description": "Fast and secure QR code scanning.",
+    "size": 15,
+    "reviews": 2100,
+    "ratingAvg": 4.6,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1060 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308",
+    "title": "Travel Guide Pro",
+    "companyName": "ExploreWorld",
+    "description": "Discover destinations and plan trips.",
+    "size": 60,
+    "reviews": 3000,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1720 }
+    ]
+  }
+]

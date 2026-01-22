@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9",
+    "title": "Task Manager Pro",
+    "companyName": "SoftLab Ltd",
+    "description": "A productivity app designed to manage daily tasks efficiently.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 520 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9",
+    "title": "PhotoPro Editor",
+    "companyName": "PixelWave",
+    "description": "Advanced photo editing app with AI filters.",
+    "size": 70,
+    "reviews": 3400,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 780 },
+      { "name": "5 star", "count": 2050 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9",
+    "title": "MusicBeat Player",
+    "companyName": "TuneTech",
+    "description": "High-quality music player with offline mode.",
+    "size": 30,
+    "reviews": 900,
+    "ratingAvg": 4.2,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9",
+    "title": "HealthyLife Tracker",
+    "companyName": "Wellness Corp",
+    "description": "Track calories, steps, and workouts in one place.",
+    "size": 55,
+    "reviews": 1700,
+    "ratingAvg": 4.6,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 800 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9",
+    "title": "Food Delivery Hub",
+    "companyName": "QuickBite",
+    "description": "Order food from top restaurants instantly.",
+    "size": 80,
+    "reviews": 5200,
+    "ratingAvg": 4.8,
+    "downloads": 2400000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 230 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 2870 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9",
+    "title": "WeatherNow",
+    "companyName": "SkyNet",
+    "description": "Accurate real-time weather updates with radar maps.",
+    "size": 25,
+    "reviews": 2300,
+    "ratingAvg": 4.4,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1050 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9",
+    "title": "WeatherNow",
+    "companyName": "EduPlus",
+    "description": "Learn new languages with AI-based lessons.",
+    "size": 60,
+    "reviews": 2900,
+    "ratingAvg": 4.5,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 280 },
+      { "name": "4 star", "count": 680 },
+      { "name": "5 star", "count": 1730 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9",
+    "title": "Budget Planner",
+    "companyName": "Fintech Labs",
+    "description": "Manage personal finances and track expenses.",
+    "size": 40,
+    "reviews": 1100,
+    "ratingAvg": 4.3,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 390 }
+    ]
+  }
+]

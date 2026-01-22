@@ -12,7 +12,7 @@ const Footer = () => {
         <nav>
           <h6 className="footer-title">Social</h6>
           <div className="grid grid-flow-col gap-4">
-            <a>
+            <a src="https://www.facebook.com" target="">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -48,11 +48,10 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-
+      
       <aside className="text-center bg-[#001931]">
         <p className="text-white p-5">
-          Copyright © - All right reserved by ACME
-          Industries Ltd
+          Copyright © - All right reserved by ACME Industries Ltd
         </p>
       </aside>
     </div>

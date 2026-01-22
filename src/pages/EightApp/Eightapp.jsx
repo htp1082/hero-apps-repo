@@ -1,8 +1,9 @@
 import React from "react";
 import EightDetails from "../EightDetails/EightDetails";
+import { NavLink } from "react-router";
 
 const Eightapp = ({ eightData }) => {
-  console.log(eightData);
+  // console.log(eightData);
   return (
     <div>
       <div className="text-center mb-15 mt-15">
@@ -20,8 +21,10 @@ const Eightapp = ({ eightData }) => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-10">
-          <button className="btn gardient">Show All</button>
+      <div className="flex justify-center mt-10 mb-10">
+        <NavLink to={"allapps"}>
+        <button className="btn gardient">Show All</button>
+        </NavLink>  
       </div>
     </div>
   );
