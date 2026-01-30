@@ -3,11 +3,18 @@ import { Link, NavLink } from "react-router";
 import navImg from "../../assets/logo.png";
 import "./Navbar.css";
 import mygithub from "../../assets/github.png";
-const Navbar = () => {
+const Navbar = ({ setaloader }) => {
+  const handleNavClick = () => {
+    setaloader(true);
+
+    setTimeout(() => setaloader(false), 600);
+  };
+
   const navLink = (
     <>
       <NavLink
         to={"/"}
+        onClick={handleNavClick}
         className={({ isActive }) =>
           isActive ? "navLink-active ml-8 text-[16px]" : "ml-8 text-[16px]"
         }
@@ -16,6 +23,7 @@ const Navbar = () => {
       </NavLink>
       <NavLink
         to={"allapps"}
+        onClick={handleNavClick}
         className={({ isActive }) =>
           isActive ? "navLink-active ml-10 text-[16px]" : "ml-10 text-[16px]"
         }
@@ -23,7 +31,8 @@ const Navbar = () => {
         <li>Apps</li>
       </NavLink>
       <NavLink
-        to={"instalation"}
+        to={"installApp"}
+        onClick={handleNavClick}
         className={({ isActive }) =>
           isActive ? "navLink-active ml-10 text-[16px]" : "ml-10 text-[16px]"
         }
@@ -35,7 +44,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="navbar bg-base-300 max-w-[1400px] mx-auto">
-        <div className="navbar-start">
+        <div className="navbar-start" onClick={handleNavClick}>
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -68,11 +77,13 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navLink}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn simple-gardient  gardient">
-            <img className="h-5 w-5" src={mygithub} alt="" srcset="" />{" "}
-            <a href="https://github.com/htp1082" target="/">
-              Contribute
-            </a>
+          <a
+            className="btn simple-gardient gardient"
+            href="https://github.com/htp1082?tab=overview&from=2026-01-01&to=2026-01-23"
+            target="_blank"
+          >
+            <img className="h-5 w-5" src={mygithub} alt="" />
+            Contribute
           </a>
         </div>
       </div>
